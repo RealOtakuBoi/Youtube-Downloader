@@ -16,8 +16,8 @@ body{
 }
 
 .container{
-    width: 800px;
-    height: 400px;
+    width: 52.083333333333336vw;
+    height: 56.022408963585434vh;
     background-color: #fff;
     margin-top: 10px;
     display: flex;
@@ -33,19 +33,19 @@ h1{
     margin-top: 20px;
     margin-bottom: 30px;
     margin-left: 70px;
-    font-size: 35px;
+    font-size: 2.188em;
 }
 
 .container .link-container, .format-container, .button-container{
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
-    width: 500px;
+    width: 32.552083333333336vw;
 }
 
 label{
     margin-bottom: 5px;
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: bold;
 }
 
@@ -73,13 +73,13 @@ button{
 }
 
 button:hover{
-    background-position: right center; /* change the direction of the change here */
+    background-position: right center;
     color: #fff;
     text-decoration: none;
 }
 
 input,select{
-    height: 35px;
+    height: 4.901960784313726vh;
     border: 1px solid #681f6a;
     border-radius: 7px;
     outline: none;
@@ -97,23 +97,23 @@ input:invalid{
 
 @media only screen and (max-widht:850px){
     .container{
-        width: 500px;
+        width: 32.552083333333336vw;
     }
 
     .link-container, .button-container, .format-container{
-        width: 300px;
+        width: 19.53125vw;
     }
 }
 
 
 @media only screen and (max-widht:550px){
     .container{
-        width: 350px;
-        height: 450px;
+        width: 22.786458333333332vw;
+        height: 63.02521008403362vh;
         margin-top: 50px;
     }
 
     .container .link-container,.button-container,.format-container{
-        width: 300px;
+        width: 19.53125vw;
     }
 }
