@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>YouTube Downloader</title>
+</head>
+<body>
+    <div class="container">
+        <div class="link-container">
+            <h1>YouTube Downloader</h1>
+            <label for="vid-link">Video Link</label>
+            <input type="url" class="vid-link" required placeholder="Video Link">
+        </div>
+        <div class="format-container">
+            <label for="format">Select Format</label>
+            <select class="format" required>
+                <option value="mp3">Mp3</option>
+                <option value="mp4a">144</option>
+                <option value="240">240</option>
+                <option value="360">360</option>
+                <option value="480">480</option>
+                <option value="720">720</option>
+                <option value="1080">1080</option>
+                <option value="4k">4K</option>
+                <option value="8k">8K</option>
+            </select>
+        </div>
+        <div class="button-container">
+            <button class="btn" type="submit">Download</button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
