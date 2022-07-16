@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(263deg, #93183c,#681f6a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 800px;
+    height: 400px;
+    background-color: #fff;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+h1{
+    color: red;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    font-size: 35px;
+}
+
+.container .link-container, .format-container, .button-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    width: 500px;
+}
+
+label{
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+button{
+    background-image: linear-gradient(to right, #D31027 0%, #EA384D  51%, #D31027  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    border: none;
+    display: block;
+    cursor: pointer;
+}
+
+button:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+input,select{
+    height: 35px;
+    border: 1px solid #681f6a;
+    border-radius: 7px;
+    outline: none;
+    padding: 0 10px;
+    transition: 0.3s;
+}
+
+input:focus{
+    background-color: lightgray;
+}
+
+input:invalid{
+    border: 2px solid red;
+}
+
+@media only screen and (max-widht:850px){
+    .container{
+        width: 500px;
+    }
+
+    .link-container, .button-container, .format-container{
+        width: 300px;
+    }
+}
+
+
+@media only screen and (max-widht:550px){
+    .container{
+        width: 350px;
+        height: 450px;
+        margin-top: 50px;
+    }
+
+    .container .link-container,.button-container,.format-container{
+        width: 300px;
+    }
+}
