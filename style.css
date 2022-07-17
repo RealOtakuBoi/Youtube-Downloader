@@ -32,7 +32,7 @@ h1{
     color: red;
     margin-top: 1em;
     margin-bottom: 1.8em;
-    /* margin-left: 2.5em; */
+    text-align: center;
     font-size: 2.188em;
 }
 
@@ -62,7 +62,7 @@ button{
     padding: 15px 45px;
     text-align: center;
     text-transform: uppercase;
-    overflow: hidden;
+    overflow: auto;
     text-overflow: ellipsis;
     white-space: normal;
     transition: 0.5s;
@@ -98,9 +98,9 @@ input:invalid{
     border: 2px solid red;
 }
 
-@media screen and (max-widht:850px){
+@media only screen and (max-width:850px){
     .container{
-        width: 32.552083333333336vw;
+        width: 40.552083333333336vw;
     }
 
     .link-container, .button-container, .format-container{
@@ -109,11 +109,12 @@ input:invalid{
 }
 
 
-@media screen and (max-widht:480px){
+@media only screen and (max-width:550px){
     .container{
         width: 22.786458333333332vw;
         height: 69.02521008403362vh;
         margin-top: 50px;
+        font-size: 30%;
     }
 
     .container .link-container,.button-container,.format-container{
