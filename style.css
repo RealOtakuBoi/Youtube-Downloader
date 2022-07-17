@@ -19,7 +19,7 @@ body{
     width: 52.083333333333336vw;
     height: 56.022408963585434vh;
     background-color: #fff;
-    margin-top: 10px;
+    margin-top: 0.6em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,16 +30,16 @@ body{
 
 h1{
     color: red;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    margin-left: 70px;
+    margin-top: 1em;
+    margin-bottom: 1.8em;
+    /* margin-left: 2.5em; */
     font-size: 2.188em;
 }
 
 .container .link-container, .format-container, .button-container{
     display: flex;
     flex-direction: column;
-    margin-bottom: 30px;
+    margin-bottom: 1.8em;
     width: 32.552083333333336vw;
 }
 
@@ -58,7 +58,7 @@ label{
 
 button{
     background-image: linear-gradient(to right, #D31027 0%, #EA384D  51%, #D31027  100%);
-    margin: 10px;
+    margin: 0.6em;
     padding: 15px 45px;
     text-align: center;
     text-transform: uppercase;
