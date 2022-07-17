@@ -62,7 +62,7 @@ button{
     padding: 15px 45px;
     text-align: center;
     text-transform: uppercase;
-    overflow: auto;
+    overflow: hidden;
     text-overflow: ellipsis;
     white-space: normal;
     transition: 0.5s;
@@ -112,7 +112,7 @@ input:invalid{
 @media only screen and (max-width:550px){
     .container{
         width: 22.786458333333332vw;
-        height: 69.02521008403362vh;
+        height: 63.02521008403362vh;
         margin-top: 50px;
         font-size: 30%;
     }
