@@ -16,10 +16,10 @@ body{
 }
 
 .container{
-    width: 52.083333333333336vw;
-    height: 56.022408963585434vh;
+    width: 800px;
+    height: 400px;
     background-color: #fff;
-    margin-top: 0.6em;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,22 +30,22 @@ body{
 
 h1{
     color: red;
-    margin-top: 1em;
-    margin-bottom: 1.8em;
+    margin-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
-    font-size: 2.188em;
+    font-size: 35px;
 }
 
 .container .link-container, .format-container, .button-container{
     display: flex;
     flex-direction: column;
-    margin-bottom: 1.8em;
-    width: 32.552083333333336vw;
+    margin-bottom: 30px;
+    width: 500px;
 }
 
 label{
     margin-bottom: 5px;
-    font-size: 1.25em;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -82,7 +82,7 @@ button:hover{
 }
 
 input,select{
-    height: 4.901960784313726vh;
+    height: 35px;
     border: 1px solid #681f6a;
     border-radius: 7px;
     outline: none;
@@ -100,24 +100,22 @@ input:invalid{
 
 @media only screen and (max-width:850px){
     .container{
-        width: 40.552083333333336vw;
+        width: 500px;
     }
 
     .link-container, .button-container, .format-container{
-        width: 19.53125vw;
+        width: 300px;
     }
 }
 
 
 @media only screen and (max-width:550px){
     .container{
-        width: 22.786458333333332vw;
-        height: 63.02521008403362vh;
-        margin-top: 50px;
-        font-size: 30%;
+        width: 350px;
+        height: 450px;
     }
 
     .container .link-container,.button-container,.format-container{
-        width: 19.53125vw;
+        width: 300px;
     }
 }
