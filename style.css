@@ -62,6 +62,9 @@ button{
     padding: 15px 45px;
     text-align: center;
     text-transform: uppercase;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
     transition: 0.5s;
     background-size: 200% auto;
     color: white;            
@@ -95,7 +98,7 @@ input:invalid{
     border: 2px solid red;
 }
 
-@media only screen and (max-widht:850px){
+@media screen and (max-widht:850px){
     .container{
         width: 32.552083333333336vw;
     }
@@ -106,10 +109,10 @@ input:invalid{
 }
 
 
-@media only screen and (max-widht:550px){
+@media screen and (max-widht:480px){
     .container{
         width: 22.786458333333332vw;
-        height: 63.02521008403362vh;
+        height: 69.02521008403362vh;
         margin-top: 50px;
     }
 
